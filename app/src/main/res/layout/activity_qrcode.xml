@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     android:orientation="vertical"
     tools:context=".QRCodeActivity">
 
@@ -29,7 +30,8 @@
 
     <ImageView
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
+        android:background= "@color/cardview_light_background"
         android:layout_gravity="center"
         android:id="@+id/iv"/>
 
